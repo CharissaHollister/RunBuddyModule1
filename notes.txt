@@ -1,0 +1,53 @@
+layout sketch
+
+1:placement
+	2:heading			3:what we do	4:what you do	5:your trainers	6:reach out
+7: background image
+					8:get started today
+						9:name
+						10:email
+						11:phone
+						12:before?
+						13:18yrs?
+						14:get running button
+
+15: what we do
+	16:heading
+	17:information
+
+
+18: what you do
+	19:heading
+	20:step 1
+	21:step 2
+	22: step 3
+	23: step 4
+
+24:meet the trainers
+	25:heading
+	26:arron
+		27:image		28:bio heading
+					29:bio info
+br
+
+
+	30:Joanna
+		31:bio heading	33:image		
+		32:bio info
+
+br
+
+	34: Harry
+		35:image		36:bio heading
+					37:bio info
+
+38:reach out
+	39:heading
+	40: Map			41:information
+					42:header
+					43:description
+					44:address/phone/email
+
+45: footer
+	46: made by					47:privacy policy link
+							48:copyright
