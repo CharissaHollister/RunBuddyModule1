@@ -46,7 +46,9 @@ br
 	40: Map			41:information
 					42:header
 					43:description
-					44:address/phone/email
+					44:address
+					49:phone
+					50:email
 
 45: footer
 	46: made by					47:privacy policy link
