@@ -46,18 +46,29 @@
         <input type="text" placeholder="Your Name" name="name" id="name" />
         <!--form email-->
         <label for="email">Enter email address:</label>
-        <input type="text" placeholder="Email Address" name="email" id="email" />
+        <input type="email" placeholder="Email Address" name="email" id="email" />
         <!--form phone-->
         <label for="phone">Enter a telephone number:</label>
-        <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
+        <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
         <!--form trainer before-->
         <p>
           Have you worked out with a trainer before?
           <input type="radio" name="trainer-confirm" id="trainer-yes" />
-          <label for="trainer-yes">Yes</label>
-        <!--form gt 18yo-->
+            <label for="trainer-yes">Yes</label>
           <input type="radio" name="trainer-confirm" id="trainer-no" />
-          <label for="trainer-no">No</label>
+            <label for="trainer-no">No</label>
+        </p>
+        <p>
+            <label for="checkbox" >
+              I acknowledge that I am at least 18 years of age.
+            </label>
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <!--submit form button-->
+        <p>
+          <button type="submit">
+            Get Running!
+          </button>
         </p>
       </form>
       <!--end of form-->
