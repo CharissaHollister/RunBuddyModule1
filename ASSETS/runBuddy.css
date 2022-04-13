@@ -60,3 +60,51 @@ footer {
       footer a {
         color: #024e76;
       }
+      /*apply style to hero jumbotron*/
+      .heropg {
+        /* remove- padding: 600px;*/
+        background-image: url("../ASSETS/hero-bg.jpg");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+      /*form box*/
+      .hero-form {
+        background-color: #fce138;
+        padding: 20px;
+        width: 500px;
+        color: #024e76;
+        border: #024e76 3px solid;
+        position: absolute ;
+        bottom: 120px;
+        right: 140px;
+      }
+      .hero-form h3 {
+        margin: 0px 0px 0px 0px;
+        font-size: x-large;
+      }
+      .hero-form p {
+        margin: 5px 0 15px 0;
+      }
+      .hero-form div input {
+        border: 2px solid red;
+        display: block;
+        font-size: large;
+        margin: 0px 0px 6px 0px;
+        padding: 3px 0px 3px 6px;
+        width: 100%;
+      }
+      .hero-form label {
+        margin: 0 5px;
+      }
+
+.hero-form button{
+  background-color: #024e76;
+  color: #fce138;
+  padding: 6px 6px;
+  font-size: larger;
+  border: none;
+  margin: 6px;
+
+}
