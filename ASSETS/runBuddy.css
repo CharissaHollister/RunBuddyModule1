@@ -110,6 +110,23 @@ footer {
 
 }
 /*page sections formatting*/
+/*formatting for all title lines*/
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
 /*What we do*/
 #what-we-do{
   position: relative;
@@ -118,7 +135,7 @@ footer {
 #what-we-do h2{
   /*box-sizing: content-box;
   width: fit-content;
-  position: relative;*/
+  position: relative;
   display: inline-block;
   font-size: 45px;
   color: navy;
@@ -126,7 +143,7 @@ footer {
   padding: 6px 80px;
   margin: auto;
   margin-bottom: 20px;
-  border-bottom: 5px solid #fce138;
+  border-bottom: 5px solid #fce138;*/
 }
 #what-we-do p{
   line-height: 1.7;
@@ -139,29 +156,44 @@ footer {
 
 /*What you do*/
 #what-you-do {
-  position: relative;
+  /*position: relative;*/
   background-color: #fce138;
   text-align: center;
 }
 #what-you-do h2{
-  box-sizing: content-box;
+  /*box-sizing: content-box;
   width: fit-content;
   position: relative;
+  display: inline-block;
   font-size: 45px;
   color: navy;
   text-align: center;
-  padding: 6px 30px;
+  padding: 6px 80px;
   margin: auto;
-  margin-bottom: 20px;
-  border-bottom: 5px solid rgb(3, 132, 201);
+  margin-bottom: 35px;
+  border-bottom: 5px solid rgb(3, 132, 201);*/
+}
+#what-you-do div {
+  margin-bottom: 80px;
 }
 #what-you-do p{
   font: 38px normal rgb(3, 132, 201);
-  text-align: justify;
-  padding: 6px 30px;
+  /*padding: 6px 30px;
   margin: auto;
-  width: 80%;
+  width: 80%;*/
 }
+#what-you-do img{
+  width: 15%;
+  margin: 10px 0;
+  }
+  #what-you-do h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+  }
+  #what-you-do span{
+    font-size: 38px;
+  }
 /*Meet The Trainers*/
 #meet-trainers{
   position: relative;
@@ -171,7 +203,7 @@ footer {
   text-align: center;
 }
 #meet-trainers h2{
-  box-sizing: content-box;
+  /*box-sizing: content-box;
   width: fit-content;
   position: relative;
   font-size: 45px;
@@ -180,7 +212,7 @@ footer {
   padding: 15;
   margin: auto;
   margin-bottom: 20px;
-  border-bottom: 5px solid #fce138;
+  border-bottom: 5px solid #fce138;*/
 }
 #meet-trainers p{
 background-color: aqua;
@@ -227,7 +259,7 @@ vertical-align: middle;
   text-align: center;
 }
 #reach-out h2{
-  box-sizing: content-box;
+  /*box-sizing: content-box;
   width: fit-content;
   position: relative;
   font-size: 45px;
@@ -236,7 +268,7 @@ vertical-align: middle;
   padding: 6px 30px;
   margin: auto;
   margin-bottom: 20px;
-  border-bottom: 5px solid rgb(3, 132, 201);
+  border-bottom: 5px solid rgb(3, 132, 201);*/
 }
 #reach-out p{
   font: 38px normal rgb(3, 132, 201);
