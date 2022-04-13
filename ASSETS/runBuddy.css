@@ -235,13 +235,28 @@ vertical-align: middle;}
 .reach h2{
   color: #fce138;
 }
-.contact-info{
-  font: 38px normal rgb(212, 229, 238);
-  padding: 6px 30px;
-  margin: auto;
-  width: 80%;
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
 }
-
+.contact-info div{
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+.contact-info h4, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
 .address a{
   font: 38px normal #fce138;
 }
