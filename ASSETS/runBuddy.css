@@ -113,21 +113,24 @@ footer {
 /*What we do*/
 #what-we-do{
   position: relative;
+  text-align: center;
 }
 #what-we-do h2{
-  box-sizing: content-box;
+  /*box-sizing: content-box;
   width: fit-content;
-  position: relative;
+  position: relative;*/
+  display: inline-block;
   font-size: 45px;
   color: navy;
   text-align: center;
-  padding: 6px 30px;
+  padding: 6px 80px;
   margin: auto;
   margin-bottom: 20px;
   border-bottom: 5px solid #fce138;
 }
 #what-we-do p{
-  font: 38px normal rgb(3, 132, 201);
+  line-height: 1.7;
+  font: 20px normal rgb(3, 132, 201);
   text-align: justify;
   padding: 6px 30px;
   margin: auto;
@@ -138,6 +141,7 @@ footer {
 #what-you-do {
   position: relative;
   background-color: #fce138;
+  text-align: center;
 }
 #what-you-do h2{
   box-sizing: content-box;
@@ -164,6 +168,7 @@ footer {
   margin: auto;
   padding: 10px 0px 40px 0px;
   width: 80%;
+  text-align: center;
 }
 #meet-trainers h2{
   box-sizing: content-box;
@@ -219,6 +224,7 @@ vertical-align: middle;
 #reach-out{
   position: relative;
   background-color: navy;
+  text-align: center;
 }
 #reach-out h2{
   box-sizing: content-box;
