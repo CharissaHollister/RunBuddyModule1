@@ -191,7 +191,10 @@ footer {
   background: #024e76;
   color: #fce138;}
   /*ERROR: Can't get blocks to go all the way to bottom of section*/
-/*img and info blocks*/
+/*img and info blocks*/;
+.trainer-bio{
+  height:100%
+}
 .trainer div{
   float: right;
   width: 65%;}
@@ -259,4 +262,22 @@ vertical-align: middle;}
 }
 .address a{
   font: 38px normal #fce138;
+}
+/*.headline h2{
+  position: absolute;
+  left: 50px;
+  margin: auto;
+  height: 600px;
+  width: 70%;
+  padding: 10px 0px 40px 0px;
+  font: 50px bolder #fce138;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+}*/
+.headline h2{
+  position: absolute;
+  color: #fce138;
+  font-style: italic;
+
 }
