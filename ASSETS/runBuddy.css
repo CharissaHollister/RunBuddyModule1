@@ -37,7 +37,7 @@ header a {
   /* apply styles to body */
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
+    /*color: #39a6b2;*/
     font-family: Helvetica, Arial, sans-serif;
     }
 /* apply styles to footer */
@@ -88,9 +88,10 @@ footer {
         margin: 5px 0 15px 0;
       }
       .hero-form div input {
-        border: 2px solid red;
+        border: 1.5px solid red;
         display: block;
         font-size: large;
+        color: navy;
         margin: 0px 0px 6px 0px;
         padding: 3px 0px 3px 6px;
         width: 100%;
@@ -107,4 +108,134 @@ footer {
   border: none;
   margin: 6px;
 
+}
+/*page sections formatting*/
+/*What we do*/
+#what-we-do{
+  position: relative;
+}
+#what-we-do h2{
+  box-sizing: content-box;
+  width: fit-content;
+  position: relative;
+  font-size: 45px;
+  color: navy;
+  text-align: center;
+  padding: 6px 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #fce138;
+}
+#what-we-do p{
+  font: 38px normal rgb(3, 132, 201);
+  text-align: justify;
+  padding: 6px 30px;
+  margin: auto;
+  width: 80%;
+}
+
+/*What you do*/
+#what-you-do {
+  position: relative;
+  background-color: #fce138;
+}
+#what-you-do h2{
+  box-sizing: content-box;
+  width: fit-content;
+  position: relative;
+  font-size: 45px;
+  color: navy;
+  text-align: center;
+  padding: 6px 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(3, 132, 201);
+}
+#what-you-do p{
+  font: 38px normal rgb(3, 132, 201);
+  text-align: justify;
+  padding: 6px 30px;
+  margin: auto;
+  width: 80%;
+}
+/*Meet The Trainers*/
+#meet-trainers{
+  position: relative;
+  margin: auto;
+  padding: 10px 0px 40px 0px;
+  width: 80%;
+}
+#meet-trainers h2{
+  box-sizing: content-box;
+  width: fit-content;
+  position: relative;
+  font-size: 45px;
+  color: navy;
+  text-align: center;
+  padding: 15;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #fce138;
+}
+#meet-trainers p{
+background-color: aqua;
+position: absolute;
+padding:none;
+margin: auto;
+width: 80%;
+position: relative;
+
+}
+#meet-trainers div{
+  width: 80%;
+  display: block;
+  position: absolute;
+  }
+#meet-trainers img{
+size: 50px 80px;
+position: relative;
+vertical-align: middle;
+}
+
+#meet-trainers h4{
+  text-align: left;
+  color: #fce138;
+  font-size: 27px;
+
+}
+#meet-trainers h5{
+  text-align: left;
+  color: rgb(13, 131, 64);
+  font-size: 16px;
+}
+#meet-trainers span{
+  text-align: left;
+  font-size: 12px;
+  color: rgb(13, 131, 64);
+
+}
+
+/*Reach Out*/
+#reach-out{
+  position: relative;
+  background-color: navy;
+}
+#reach-out h2{
+  box-sizing: content-box;
+  width: fit-content;
+  position: relative;
+  font-size: 45px;
+  color: #fce138;
+  text-align: center;
+  padding: 6px 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom: 5px solid rgb(3, 132, 201);
+}
+#reach-out p{
+  font: 38px normal rgb(3, 132, 201);
+  text-align: justify;
+  padding: 6px 30px;
+  margin: auto;
+  width: 80%;
 }
