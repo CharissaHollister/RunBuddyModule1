@@ -180,9 +180,11 @@ footer {
   margin: auto;
   padding: 10px 0px 40px 0px;
   width: 80%;
-  text-align: center;}
+  text-align: center;
+}
 .trainer{
-  overflow: auto;}
+  overflow: auto;
+}
 .trainer-2{
   overflow: auto;}
 .yourtrainers div {
@@ -193,7 +195,7 @@ footer {
   /*ERROR: Can't get blocks to go all the way to bottom of section*/
 /*img and info blocks*/;
 .trainer-bio{
-  height:100%
+height: 100%;
 }
 .trainer div{
   float: right;
@@ -275,9 +277,15 @@ vertical-align: middle;}
   text-align: center;
   vertical-align: middle;
 }*/
+.headline{
+  position: relative;
+  size: cover;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 .headline h2{
   position: absolute;
   color: #fce138;
   font-style: italic;
-
 }
