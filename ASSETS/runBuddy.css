@@ -184,34 +184,38 @@ footer {
 }
 .trainer{
   overflow: auto;
+  height:100%;
+  background: #024e76;
 }
 .trainer-2{
-  overflow: auto;}
+  overflow: auto;
+  height:100%;
+  background: #024e76;}
 .yourtrainers div {
   width: 900px;
   margin: 0 auto 30px auto;
-  background: #024e76;
   color: #fce138;}
-  /*ERROR: Can't get blocks to go all the way to bottom of section*/
 /*img and info blocks*/;
-.trainer-bio{
-height: 100%;
-}
+
 .trainer div{
   float: right;
-  width: 65%;}
+  padding: 35px;
+  width: 65%;
+}
 .trainer img{
   width: 35%;
   float: left;
-vertical-align: middle;}
+;
+}
 .trainer-2 div{
   padding: 35px;
   float: left;
-  width: 65%;}
+  width: 65%;
+ }
 .trainer-2 img{
   float: right;
   width: 35%;
-vertical-align: middle;}
+  }
 .yourtrainers h3{
   color: #fce138;
   font-size: 32px;
@@ -279,13 +283,38 @@ vertical-align: middle;}
 }*/
 .headline{
   position: relative;
-  size: cover;
-  display: flex;
-  align-items: center;
-  align-content: center;
+  text-align: center;
+  overflow: auto;
+  vertical-align: center;
 }
 .headline h2{
-  position: absolute;
+  font-size: 90px;
+  position: relative;
   color: #fce138;
   font-style: italic;
+  margin-top: 200px;
 }
+
+.legal{
+color: navy;
+width: 80%;
+text-align: left;
+margin-left:100px;
+}
+.legal h4{
+  font: 20px bold;
+  
+}
+.legal h3{
+  font: 30px bold;
+}
+.legal p{
+
+}
+.legal ol{
+  /*add bullets*/
+  color: #39a6b2;
+}
+.legal span{
+font-size: 20px;
+  }
