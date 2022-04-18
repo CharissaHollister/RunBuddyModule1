@@ -9,6 +9,7 @@
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
@@ -37,6 +38,7 @@
   .hero-cta {
     text-align: center;
   }
+
   .section-title {
     width: 80%;
   }
@@ -120,12 +122,20 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../ASSETS/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
   }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
  }
 header a {
     text-decoration: none;
@@ -146,8 +156,13 @@ header a {
     padding:10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
-
+  .rounded-corners {
+    -webkit-border-radius: 10px; /* old versions of chrome and safari */
+    -moz-border-radius: 10px; /* old versions of firefox */
+    border-radius: 10px; /* standardized browsers */
+  }
   /* apply styles to body */
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -185,12 +200,13 @@ footer {
         background-image: url("../ASSETS/hero-bg.jpg");
         height: 600px;
         background-size: cover;
-        background-position: center;
+        background-position: 80%;
+        background-attachment: fixed;
         position: relative;
       }
       /*form box*/
       .hero-form {
-        background-color: #fce138;
+        background-color: rgba(252,225,56,0.8);
         padding: 20px;
         width: 40%;
         color: #024e76;
@@ -199,6 +215,7 @@ footer {
         bottom: 10%;
         right: 10%;
         margin: 3.5%;
+        border-radius: 15px;
       }
       .hero-cta {
         width: 35%;
@@ -212,6 +229,7 @@ footer {
         font-style: italic;
         font-size: 55px;
         color: #fce138;
+          text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
       .hero-form h3 {
         margin: 0px 0px 0px 0px;
@@ -228,6 +246,7 @@ footer {
         margin: 0px 0px 6px 0px;
         padding: 3px 0px 3px 6px;
         width: 100%;
+        border-radius: 10px;
       }
       .hero-form label {
         margin: 0 5px;
@@ -240,6 +259,7 @@ footer {
   font-size: larger;
   border: none;
   margin: 6px;
+  border-radius: 10px;
 
 }
 /*page sections formatting*/
@@ -402,6 +422,7 @@ color: #024e76;
 width: 100%;
 margin-bottom: 15px;
 margin-top: 5px;
+border-radius: 10px;
 }
 .contact-form button{
   width: 100%;
@@ -411,6 +432,7 @@ color: #024e76;
 border: none;
 background-color: #fce138;
 text-align: center;
+border-radius: 10px;
 }
 .address a{
   font: 38px normal #fce138;
