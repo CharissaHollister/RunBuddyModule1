@@ -167,31 +167,47 @@ footer {
   margin: auto;
   width: 80%;
 }
-
 /*What you do*/
 .WhatYouDo {
-  /*position: relative;*/
   background-color: #fce138;
   text-align: center;
 }
-.WhatYouDo div {
-  margin-bottom: 80px;
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
-/*ERROR: .WhatYouDo p is not working*/
-.WhatYouDo p{
-  font: 38px normal rgb(3, 132, 201);
+.step-text p{
+  font: 23px normal rgb(3, 132, 201);
 }
-.WhatYouDo img{
-  width: 15%;
-  margin: 10px 0;
-  }
  .WhatYouDo h3{
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
+    flex: 1 30%;
   }
-  .WhatYouDo span{
-    font-size: 38px;
+  .step-info{
+    flex: 2 70%;
+  }
+  .step-img{
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+  .step-img img {
+    max-width: 100%;
+  }
+  .step-text {
+    flex: 12;
+  }
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
   }
   .text-left {
     text-align: left;
@@ -323,8 +339,13 @@ footer {
   margin-left:195px;
 }*/
 
-.headline p{
+.headline p{ /*intro*/
   text-align: center;
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 .legal{
