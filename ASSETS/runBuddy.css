@@ -41,8 +41,6 @@ header a {
 
   /* apply styles to body */
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    /*color: #39a6b2;*/
     font-family: Helvetica, Arial, sans-serif;
     }
 /* apply styles to footer */
@@ -182,10 +180,7 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.step-text p{
-  font: 23px normal rgb(3, 132, 201);
-}
- .WhatYouDo h3{
+ .step h3{
     color: #024e76;
     font-size: 46px;
     margin-top: 10px;
@@ -208,6 +203,9 @@ footer {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
+  }
+  .step-text p{
+    font: 23px normal rgb(3, 132, 201);
   }
   .text-left {
     text-align: left;
