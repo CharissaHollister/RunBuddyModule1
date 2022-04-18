@@ -51,6 +51,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
     }
     footer h2 {
         display: inline;
@@ -60,7 +61,6 @@ footer {
       }
       footer div {
         line-height: 1.5;
-        text-align: right;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -255,16 +255,19 @@ footer {
 .reach h2{
   color: #fce138;
 }
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
 .contact-info iframe {
-  width: 400px;
   height: 400px;
 }
 .contact-info div{
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 .contact-info h3 {
@@ -277,35 +280,32 @@ footer {
   font-size: 20px;
   font-style: normal;
 }
+.contact-info p{
+  font-size: 16px;
+}
+
+.contact-form input, .contact-form textarea{
+border: 1px solid #024e76;
+display: block;
+padding: 7px 15px;
+font-size: 16px;
+color: #024e76;
+width: 100%;
+margin-bottom: 15px;
+margin-top: 5px;
+}
+.contact-form button{
+  width: 100%;
+  padding: 15px 0;
+font-size: 16px;
+color: #024e76;
+border: none;
+background-color: #fce138;
+text-align: center;
+}
 .address a{
   font: 38px normal #fce138;
 }
-/*.headline h2{
-  position: absolute;
-  left: 50px;
-  margin: auto;
-  height: 600px;
-  width: 70%;
-  padding: 10px 0px 40px 0px;
-  font: 50px bolder #fce138;
-  line-height: 1.5;
-  text-align: center;
-  vertical-align: middle;
-}*/
-/*.headline{
- height: 250px;
-  text-align: center;
-  overflow: auto;
-  background-position: bottom;
-}
-.headline h2{
-  font-size: 60px;
-  position: relative;
-  color: #fce138;
-  font-style: italic;
-  margin-top: 70px;
-  margin-left:195px;
-}*/
 
 .headline p{ /*intro*/
   text-align: center;
@@ -331,11 +331,8 @@ margin-left:100px;
 .legal h3{
   font: 30px bold;
 }
-/*.legal p{
-
-}*/
 .legal ol{
-  /*add bullets*/
+  list-style: bullets;
   color: #39a6b2;
 }
 .legal span{
